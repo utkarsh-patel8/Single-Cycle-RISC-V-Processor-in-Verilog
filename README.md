@@ -73,6 +73,16 @@ riscv-single-cycle-cpu/
 └── README.md # Project documentation
 ```
 
+
+---
+
+### Notes
+
+- **`src/`** contains all RTL (Register Transfer Level) Verilog modules.
+- **`testbench/`** contains testbenches to simulate and verify functionality.
+- **`outputs/`** includes visual results (waveforms and console logs) of simulation for each test case.
+- **`README.md`** includes project overview, features, test cases, and references.
+
 ## Test Case 1 – Arithmetic and Store Instructions
 
 **Assembly Instructions:**
@@ -84,10 +94,13 @@ sw   x3, 0(x0)      # Store x3 to memory[0]
 ```
 
 ### Machine Code (to be put in program.mem):
+<pre>
 00500093
 00a00113
 002081b3
 00302023
+</pre>
+
 
 
 
