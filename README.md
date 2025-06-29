@@ -110,11 +110,15 @@ ABCD1234
 00000000
 </pre>
 
-**Console Output:**
-![Console Output for Test Case 1](outputs/TC1Console.png)
+<div style="border:1px solid #ddd; padding:10px; margin:10px 0;">
 
-**Output Waveform:**
-![Waveform for Test Case 1](outputs/TC1Waveform.png)
+<strong>Console Output:</strong><br>
+<img src="outputs/TC1Console.png"><br>
+
+<strong>Output Waveform:</strong><br>
+<img src="outputs/TC1Waveform.png">
+
+</div>
 
 This test verifies:
 - Correct functionality of arithmetic instructions (`addi`, `add`)
@@ -161,10 +165,10 @@ ABCD1234
 <div style="border:1px solid #ddd; padding:10px; margin:10px 0;">
 
 <strong>Console Output:</strong><br>
-<img src="outputs/TC2Console.png" width="600"><br><br>
+<img src="outputs/TC2Console.png"><br>
 
 <strong>Output Waveform:</strong><br>
-<img src="outputs/TC2Waveform.png" width="600">
+<img src="outputs/TC2Waveform.png">
 
 </div>
 
@@ -207,11 +211,15 @@ ABCD1234
 00000000
 </pre>
 
-**Console Output:**
-![Console Output for Test Case 3](outputs/TC3Console.png)
+<div style="border:1px solid #ddd; padding:10px; margin:10px 0;">
 
-**Output Waveform:**
-![Waveform for Test Case 3](outputs/TC3Waveform.png)
+<strong>Console Output:</strong><br>
+<img src="outputs/TC3Console.png"><br>
+
+<strong>Output Waveform:</strong><br>
+<img src="outputs/TC3Waveform.png">
+
+</div>
 
 This test verifies:
 - Correct execution of `jalr`
