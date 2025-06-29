@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8c60e2e6-0a5f-44ea-84a9-b1de867318ab)# RISC-V Single-Cycle CPU in Verilog
+# RISC-V Single-Cycle CPU in Verilog
 
 This project implements a self-designed 32-bit RISC-V single-cycle CPU in Verilog HDL, simulating the core of a modern processor in a simplified single-cycle architecture. The design supports a functional subset of the RV32I instruction set, covering arithmetic, logical, memory, branch, and jump instructions.
 
@@ -158,11 +158,16 @@ ABCD1234
 00000000
 </pre>
 
-**Console Output:**
-![Console Output for Test Case 2](outputs/TC2Console.png)
+<div style="border:1px solid #ddd; padding:10px; margin:10px 0;">
 
-**Output Waveform:**
-![Waveform for Test Case 2](outputs/TC2Waveform.png)
+<strong>Console Output:</strong><br>
+<img src="outputs/TC2Console.png" width="600"><br><br>
+
+<strong>Output Waveform:</strong><br>
+<img src="outputs/TC2Waveform.png" width="600">
+
+</div>
+
 
 This test verifies:
 - **Branch control**: conditional branching with `beq`
