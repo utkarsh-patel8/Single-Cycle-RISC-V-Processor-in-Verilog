@@ -101,7 +101,19 @@ sw   x3, 0(x0)      # Store x3 to memory[0]
 00302023
 </pre>
 
+### Console Output:
+![Console Output for Test Case 1](outputs/TC1Console.png)
 
+### Output Waveform:
+![Waveform for Test Case 1](outputs/TC1Waveform.png)
+
+This test verifies:
+- Correct functionality of arithmetic instructions (`addi`, `add`)
+- Proper data routing through the ALU
+- Register file reads and writes
+- Memory store via `sw`
+
+## Test Case 2 – Branch, Jump, Load, and Upper Immediate
 
 
 
